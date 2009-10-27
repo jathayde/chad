@@ -1,0 +1,50 @@
+body {
+  background: #6c0b0b url(../images/bkgnd_image.jpg) no-repeat top center;
+  text-align: center;
+}
+
+#nest {
+  margin: 0 auto;
+  text-align: left;
+  width: 996px;
+}
+
+#top {
+  background-image: url(../images/twitterbar_bkgnd.png);
+  background-position: top left;
+  background-repeat: repeat-x;
+  height: 40px;
+}
+
+#twitter_bar {
+  color: #fff;
+  font-size: 11px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  margin: 0 auto;
+  text-align: left;
+  width: 981px;
+}
+
+#twitter_bar strong {
+  font-size: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#twitter_bar span.time {
+  font-style: italic;
+  margin-left: 10px;
+}
+
+#content {
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+#masthead h1 {}
+
+#masthead h2 {
+  float: right;
+  margin: 7px 7px 0 0;
+}
