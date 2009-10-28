@@ -124,3 +124,9 @@ a#swaplink {float:right; margin-top: 2px;}
 #middlecol #speaking dl dt {font-style: italic; float: left;}
 #middlecol #speaking dl dd {margin-left: 65px;}
 #middlecol #speaking dl dd span {color: #666;}
+
+span.count {color: #666;}
+
+ul.linklist {}
+ul.linklist li {margin-bottom: 10px;}
+ul.linklist li span {color: #aaa; margin-left: 5px;}
