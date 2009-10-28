@@ -57,5 +57,5 @@ sIFR.replace(gothamnarrow, {
 
 sIFR.replace(gothamnarrow, {
   selector: 'h3.sifrd',
-  css: '.sIFR-root { font-size: 18px; text-transform: uppercase; background-color: #FFFFFF; color: #0d3c40; }'
+  css: '.sIFR-root { font-size: 24px; background-color: #FFFFFF; color: #990000; margin-bottom: 0; }'
 });

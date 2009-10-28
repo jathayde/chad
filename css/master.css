@@ -1,7 +1,22 @@
 body {
   background: #6c0b0b url(../images/bkgnd_image.jpg) no-repeat top center;
+  color: #333;
+  font: 12px/24px verdana, helvetica, arial, sans-serif;
   text-align: center;
 }
+
+p {
+  margin-bottom: 10px;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+a         {text-decoration: none;}
+a:link    {color: #900;}
+a:hover   {text-decoration: underline;}
+a:visited {color: #633;}
 
 #nest {
   margin: 0 auto;
@@ -21,9 +36,15 @@ body {
   font-size: 11px;
   font-family: "Trebuchet MS", Verdana, sans-serif;
   margin: 0 auto;
+  padding: 10px;
   text-align: left;
   width: 981px;
 }
+
+#twitter_bar p {vertical-align: middle;}
+#twitter_bar p img {margin-top: -2px; vertical-align: middle;}
+
+#twitter_bar p.right {float: right;}
 
 #twitter_bar strong {
   font-size: 10px;
@@ -42,9 +63,64 @@ body {
   padding: 10px;
 }
 
-#masthead h1 {}
+#masthead {}
+
+#masthead h1 {
+  margin-bottom: 0;
+}
 
 #masthead h2 {
   float: right;
   margin: 7px 7px 0 0;
 }
+
+#masthead ul#nav {margin: 7px; overflow: auto;}
+
+#masthead ul#nav li {float: left; margin-right: 20px;}
+
+#leftcol {
+  width: 535px;
+}
+
+h3.sifrd {margin-bottom: 0;}
+p.postdate {
+  color: #aaa;
+  font-size: 14px;
+  margin-top: -5px;
+  text-transform: uppercase;
+}
+
+#middlecol,
+#rightcol {
+  float: right;
+  font-size: 11px;
+  line-height: 18px;
+  margin-left: 10px;
+  width: 210px;
+}
+
+h4 {
+  border-bottom: 1px solid #999;
+  padding-bottom: 5px;
+}
+
+a#swaplink {float:right; margin-top: 2px;}
+
+#middlecol
+
+#speaking {
+  background-color: #f6f6f6;
+  border: 1px solid #afafaf;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#middlecol #speaking h4 {
+  border-bottom: none;
+  margin: -6px -6px 0 -6px;
+}
+
+#middlecol #speaking dl {font-size: 10px;}
+#middlecol #speaking dl dt {font-style: italic; float: left;}
+#middlecol #speaking dl dd {margin-left: 65px;}
+#middlecol #speaking dl dd span {color: #666;}
