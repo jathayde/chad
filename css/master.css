@@ -1,7 +1,7 @@
 body {
   background: #6c0b0b url(../images/bkgnd_image.jpg) no-repeat top center;
   color: #333;
-  font: 12px/24px verdana, helvetica, arial, sans-serif;
+  font: 14px/24px "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", verdana, helvetica, arial, sans-serif;
   text-align: center;
 }
 
@@ -10,6 +10,8 @@ p {
 }
 
 h1, h2, h3, h4 {
+  font-family: "proxima-nova-1","proxima-nova-2", verdana;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -33,7 +35,7 @@ a:visited {color: #633;}
 
 #twitter_bar {
   color: #fff;
-  font-size: 11px;
+  font-size: 12px;
   font-family: "Trebuchet MS", Verdana, sans-serif;
   margin: 0 auto;
   padding: 10px;
@@ -74,15 +76,18 @@ a:visited {color: #633;}
   margin: 7px 7px 0 0;
 }
 
-#masthead ul#nav {margin: 7px; overflow: auto;}
+#masthead nav ul {margin: 7px; overflow: auto;}
 
-#masthead ul#nav li {float: left; margin-right: 20px;}
+#masthead nav ul li {float: left; margin-right: 20px;}
 
 #leftcol {
   width: 535px;
 }
 
-h3.sifrd {margin-bottom: 0;}
+h2 {font-size: 28px; background-color: #FFFFFF; color: #0d3c40;}
+
+article h1 {font-size: 24px; background-color: #FFFFFF; color: #990000;}
+
 p.postdate {
   color: #aaa;
   font-size: 14px;
@@ -93,13 +98,14 @@ p.postdate {
 #middlecol,
 #rightcol {
   float: right;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 18px;
   margin-left: 10px;
   width: 210px;
 }
 
 h4 {
+  font-size: 16px;
   border-bottom: 1px solid #999;
   padding-bottom: 5px;
 }
